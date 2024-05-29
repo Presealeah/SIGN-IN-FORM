@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.section-container {
+  width: 80%;
+  height: auto;
+  border: 1px solid #d7d7d7;
+  margin: 4rem auto;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 2rem 4rem 2rem;
+}
+.form {
+  width: 44%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  row-gap: 2rem;
+  padding: 2rem;
+}
+.first {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  row-gap: 1.1rem;
+}
+.logo-and-h2-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  row-gap: 1.5rem;
+}
+.image-container {
+  width: 60px;
+  height: 60px;
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+}
+.h2-container {
+  width: fit-content;
+  height: auto;
+}
+.h2-container h1 {
+  font-size: 1.3rem;
+  color: #1e1e1e;
+}
+.input-group-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  row-gap: 1rem;
+}
+.input-group {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 0.5rem;
+}
+label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1e1e1e;
+}
+input {
+  width: 100%;
+  height: auto;
+  padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+  border-radius: 0.35rem;
+  outline: none;
+  border: 1px solid #d5d5d5;
+}
+.password-input-group-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.password-input-group-container a {
+  font-size: 1rem;
+  color: #4f46e5;
+  font-weight: 600;
+  text-decoration: none;
+}
+.second {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  row-gap: 1.5rem;
+}
+.signin-button-container {
+  width: 100%;
+  height: auto;
+}
+.signin-button-container button {
+  width: 100%;
+  height: auto;
+  background-color: #4f46e5;
+  color: #fff;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  border-radius: 0.35rem;
+  cursor: pointer;
+}
+.signin-button-container button:hover {
+  background-color: #7b75f1a9;
+}
+.link-and-not-a-member-container-together {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.3rem;
+}
+.not-a-member-container {
+  width: fit-content;
+  height: auto;
+}
+.not-a-member-container p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.day-container {
+  width: fit-content;
+  height: auto;
+}
+.day-container a {
+  font-size: 1rem;
+  color: #4f46e5;
+  font-weight: 500;
+  text-decoration: none;
+}

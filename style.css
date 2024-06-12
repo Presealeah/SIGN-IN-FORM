@@ -230,14 +230,10 @@ input {
     height: 30px;
   }
   .h2-container h1 {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: #1e1e1e;
   }
-  .h2-container {
-    width: 100%;
-    height: auto;
-    padding-left: 1.5rem;
-  }
+
   label {
     font-size: 0.7rem;
     font-weight: 600;
@@ -265,7 +261,7 @@ input {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    row-gap: 0.2rem;
+    row-gap: 0.1rem;
   }
   .signin-button-container button {
     width: 100%;
@@ -279,7 +275,14 @@ input {
     border-radius: 0.35rem;
     cursor: pointer;
   }
-
+  .link-and-not-a-member-container-together {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
   .not-a-member-container p {
     font-size: 0.6rem;
     font-weight: 500;
@@ -287,7 +290,6 @@ input {
   .not-a-member-container {
     width: 100%;
     height: auto;
-    margin-top: 0.4rem;
   }
   .day-container {
     width: 100%;

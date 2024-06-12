@@ -159,3 +159,134 @@ input {
   font-weight: 500;
   text-decoration: none;
 }
+@media screen and (max-width: 1120px) {
+  .section-container {
+    width: 80%;
+    height: auto;
+    border: 1px solid #d7d7d7;
+    margin: 6rem auto;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem 4rem 2rem;
+  }
+
+  .form {
+    width: 63%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 2rem;
+    padding: 2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section-container {
+    width: 80%;
+    height: auto;
+    border: 1px solid #d7d7d7;
+    margin: 4rem auto;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem 4rem 2rem;
+  }
+
+  .form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 2rem;
+    padding: 1rem;
+  }
+  .logo-and-h2-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 1rem;
+  }
+  .image-container {
+    width: 40px;
+    height: 40px;
+  }
+  .h2-container h1 {
+    font-size: 0.9rem;
+    color: #1e1e1e;
+  }
+  .h2-container {
+    width: 100%;
+    height: auto;
+    padding-left: 2.5rem;
+  }
+  label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #1e1e1e;
+  }
+  input {
+    width: 100%;
+    height: auto;
+    padding: 0.2rem 0.2rem 0.2rem 1.2rem;
+    border-radius: 0.35rem;
+    outline: none;
+    border: 1px solid #d5d5d5;
+  }
+
+  .password-input-group-container a {
+    font-size: 0.8rem;
+    color: #4f46e5;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .second {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 0.2rem;
+  }
+  .signin-button-container button {
+    width: 100%;
+    height: auto;
+    background-color: #4f46e5;
+    color: #fff;
+    padding: 0.2rem;
+    outline: none;
+    border: none;
+    border-radius: 0.35rem;
+    cursor: pointer;
+  }
+
+  .not-a-member-container p {
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+  .not-a-member-container {
+    width: 100%;
+    height: auto;
+  }
+  .day-container {
+    width: 100%;
+    height: auto;
+  }
+  .day-container a {
+    font-size: 0.7rem;
+    color: #4f46e5;
+    font-weight: 500;
+    text-decoration: none;
+  }
+}
